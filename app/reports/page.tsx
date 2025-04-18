@@ -25,7 +25,7 @@ export default function BlogPage() {
         <h1 className={title({ color: "blue" })}>Reporte de horas Infomedia</h1>
       </div>
       <div className="w-full" id="ConsultantInfo">
-        <Table className="w-full text-center mt-3" classNames={{wrapper: 'p-2'}} isCompact >
+        <Table className="w-full text-center mt-4" classNames={{wrapper: 'p-2'}} isCompact >
           <TableHeader>
             <TableColumn className="text-center w-2/3">
               Nombre del consultor
